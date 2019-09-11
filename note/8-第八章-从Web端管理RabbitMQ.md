@@ -1,2 +1,2 @@
-## 运行和管理Rabbit
+## 第八章-从Web端管理RabbitMQ
 
