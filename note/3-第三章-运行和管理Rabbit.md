@@ -35,3 +35,24 @@ RabbitMQ安装目录下找到 ./sbin 目录，运行 ./rabbitmq-server
 ### Rabbit 配置文件
 
 Linux下配置文件的路径为：/etc/rabbitmq/rabbitmq.conf
+
+### 管理用户
+
+在RabbitMQ 安装目录下的 ./sbin 运行以下命令：
+
+```
+./rabbitmqctl add_user cashing-tier cashMel
+```
+
+这样就创建了一个新的Rabbit 用户，用户名为 cashing-tier，密码是cashMel。如果想删除用户，则运行：
+
+```
+./rabbitmqctl delete_user cashing-tier
+```
+
+修改已存在用户密码：
+
+```
+./rabbitmqctl change_password cashing-tier newPassword
+```
+
