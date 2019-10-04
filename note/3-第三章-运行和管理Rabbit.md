@@ -33,3 +33,5 @@ RabbitMQ安装目录下找到 ./sbin 目录，运行 ./rabbitmq-server
 ```
 
 ### Rabbit 配置文件
+
+Linux下配置文件的路径为：/etc/rabbitmq/rabbitmq.conf
